@@ -7,7 +7,7 @@ using namespace std;
 
 class LightArmor : public Armor {
 public:
-    LightArmor(const string &name) : Armor(name, ConfigGame::getDefenceLightArmor()) {}
+    LightArmor() : Armor("LightArmor", ConfigGame::getDefenceLightArmor()) {}
 };
 
 
