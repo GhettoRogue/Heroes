@@ -44,5 +44,12 @@ public:
     }
 };
 
+int ConfigGame::_defenceHeavyArmor = 0;
+int ConfigGame::_defenceLightArmor = 0;
+int ConfigGame::_healthZerg = 0;
+int ConfigGame::_damageZerg = 0;
+int ConfigGame::_healthProtos = 0;
+int ConfigGame::_damageProtos = 0;
+
 
 
